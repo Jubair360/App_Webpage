@@ -1,0 +1,201 @@
+/*Common Css*/
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background-color:  #f7fafd;
+    padding-bottom: 300px;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+/*font family
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif*/
+
+/*===================header Part====================*/
+.header_part{
+    display: flex;
+    flex-direction: column;
+   
+}
+.header_part .logo{
+    height: 105px;
+    width: 105px;
+    margin: 40px 110px;
+}
+.menu{
+    display: flex;
+    margin-left: 180px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu ul li{
+    margin: 42px 15px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.menu ul li a{
+    color: #333;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #dc3545;
+}
+.btn .down_btn{
+    margin: 34px 17px;
+    
+}
+.down_btn {
+    margin-left: 5px;
+}
+.down_btn a{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #ff556e;
+    padding: 5px 40px;
+    text-decoration: none;
+    color: #ff556e;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7fafd;
+    font-weight: 900;
+    transition: .3s;
+}
+.down_btn a:hover{
+    background-color: #ff556e;
+    color: #f7fafd;
+}
+/*===================header Part====================*/
+/*===================banner Part====================*/
+.banner{
+    position: relative;
+    
+}
+.green{
+    height: 20px;
+    width:20px;
+    margin-left: 120px;
+    position: absolute;
+    bottom: 32px;
+}
+.yellow{
+    height: 43px;
+    width: 43px;
+    margin-top: 22px;
+    position: absolute;
+    margin-left: 1050px;
+}
+.banner_main{
+    position: absolute;
+}
+.main_head h3{
+    margin-left: 190px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.main_pera p{
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #777;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.main_btn{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.apple_btn a{
+    margin-right: 18px;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ff556e;
+    border-radius: 30px;
+    padding: 12px 37px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #ff556e;
+    transition: .3s;
+}
+.and_btn a i{
+    padding-right: 8px;
+}
+.apple_btn a i{
+    padding-right: 8px;
+}
+.and_btn a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ff556e;
+    border-radius: 30px;
+    padding: 12px 37px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #ff556e
+    
+}
+.apple_btn a:hover{
+    border: 2px solid #ff556e;
+    color: #ff556e;
+    background-color: #f7fafd;
+    
+}
+.and_btn a:hover{
+    border: 2px solid #ff556e;
+    color: #ff556e;
+    background-color: #f7fafd;
+    transition: .3s;
+}
+.white_circle1 .circle img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 90px;
+    right: -290px;
+    
+}
+.white_circle2 .circle img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 90px;
+    left: -280px;
+    
+}
+.white_circle2 .blue_circle img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 300px;
+    left: 170px;
+
+}
+.phone img{
+    height: 550px;
+    margin-top: 310px;
+    position: absolute;
+    margin-left: 180px;
+}
+/*===================banner Part====================*/
+/*===================feature Part====================*/
+
+
+/*===================feature Part====================*/
